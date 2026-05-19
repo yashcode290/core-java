@@ -1,3 +1,5 @@
+
+import java.util.Scanner;
 // Question:- Closest to n and Divisible by m
 // Given two integers n and m (m != 0). Find the number closest to n and divisible by m. If there is more than one such number, then output the one having maximum absolute value.
 
@@ -10,8 +12,6 @@
 // Input: n = -15, m = 6
 // Output: -18
 // Explanation: Both -12 and -18 are closest to -15, but -18 has the maximum absolute value.
-
-import java.util.Scanner;
 
 public class Closet{
     public static void main(String[] args){
@@ -35,7 +35,7 @@ public class Closet{
                 System.out.println("The closet number to "+ number + " is "+mull);
         }
     }
-// }
+}
 
 
 // This will only solve the test case 1
