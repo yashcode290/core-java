@@ -1,8 +1,8 @@
-import java.util.Scanner
+import java.util.Scanner;
 
 public class maxFinder{
     public static void main(String[] args){
-        Scanner scn = new Scanner(System.in)
+        Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter your number");
         int num1 = scn.nextInt();
@@ -16,7 +16,7 @@ public class maxFinder{
         else
         {
             System.out.println("number 2 is maximum");
-            
+
         }
 
         }
