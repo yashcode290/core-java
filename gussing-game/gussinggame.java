@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class gussinggame {
+public class gussinggame{
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
