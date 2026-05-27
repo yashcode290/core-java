@@ -1,0 +1,24 @@
+class Animal {
+
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Inharitance {
+
+    public static void main(String[] args) {
+
+        Dog d1 = new Dog();
+
+        d1.sound(); // inherited method
+        d1.bark();  // own method
+    }
+}
